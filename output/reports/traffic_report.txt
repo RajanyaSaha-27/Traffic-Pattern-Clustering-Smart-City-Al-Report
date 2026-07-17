@@ -1,0 +1,27 @@
+============================================================
+TRAFFIC PATTERN CLUSTERING REPORT
+============================================================
+
+Total Records : 2976
+Total Clusters : 4
+Silhouette Score : 0.466
+
+Cluster Distribution
+----------------------
+Cluster 0 : 768 (25.81%)
+Cluster 1 : 587 (19.72%)
+Cluster 2 : 971 (32.63%)
+Cluster 3 : 650 (21.84%)
+
+Traffic Situation Distribution
+-------------------------------
+Traffic Situation  heavy  high  low  normal
+Cluster                                    
+0                      0    97  141     530
+1                    580     0    0       7
+2                      0     0  162     809
+3                    102   224    1     323
+
+Project Summary
+----------------
+Traffic patterns were grouped using K-Means Clustering. The generated clusters show different traffic behaviors based on vehicle counts and total traffic.
